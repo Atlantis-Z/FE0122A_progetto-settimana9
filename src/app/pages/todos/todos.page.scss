@@ -1,0 +1,53 @@
+div{
+
+  input {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-left: 0ch;
+    border-right: 0ch;
+    border-top: 0ch;
+  }
+  #aggiungi{
+    cursor: pointer;
+    background-color: white;
+    height: 33px;
+    width: 33px;
+    font-size: 20px;
+    box-shadow: 5px 5px pink;
+    border: transparent;
+    border-radius: 15%;
+    &:hover{
+      background-color: rgb(255, 146, 164);
+
+    }
+  }
+}
+
+
+tr{
+  td{
+    padding: 10px;
+    font-size: 30px;
+  }
+  button{
+    cursor: pointer;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    color: black;
+    border-radius: 15%;
+    box-shadow: 5px 5px pink;
+    border: transparent;
+    &:hover{
+      background-color: rgb(255, 146, 164);
+      color: green;
+    }
+
+  }
+}
+
